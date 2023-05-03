@@ -9,7 +9,7 @@ const tasks = props.tasks
             return(
 
             
-            <Task updateTask={props.updateTask} deleteTask={props.deleteTask} _id={element._id} title={element.title} duration={element.duration} key={index} />
+            <Task data-test={"task"} updateTask={props.updateTask} deleteTask={props.deleteTask} _id={element._id} title={element.title} duration={element.duration} key={index}              />
             
             )
     }
